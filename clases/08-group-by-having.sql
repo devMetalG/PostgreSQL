@@ -7,4 +7,4 @@ GROUP BY
     SUBSTRING(email, POSITION('@' IN email) + 1)
 HAVING COUNT(*) > 1
 ORDER BY
-    COUNT(*) DESC;
+    COUNT(*) DESC; 
